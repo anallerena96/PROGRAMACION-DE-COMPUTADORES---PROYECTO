@@ -3,7 +3,6 @@
 import menuPrincipal
 from menuPrincipal import *
 
-
 #class elegir: Sub clase de "Inicio" que se basa en las categorías, el producto y las cantdades que el usuario desea adquirir.
 
 class elegir(Inicio):
