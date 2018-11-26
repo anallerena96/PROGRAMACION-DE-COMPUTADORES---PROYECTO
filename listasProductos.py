@@ -1,5 +1,5 @@
 
-#Lista de catogoría de productos
+#LISTA de catogoría de productos
 
 productos = []
 productos.append((1," Wraps                        "))

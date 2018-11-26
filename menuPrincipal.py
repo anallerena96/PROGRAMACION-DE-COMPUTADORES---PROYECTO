@@ -1,4 +1,4 @@
-#IMPORTANDO LA LISTA DE PRODUCTOS
+#Importando LA LISTA DE PRODUCTOS
 
 import listasProductos
 from listasProductos import *
