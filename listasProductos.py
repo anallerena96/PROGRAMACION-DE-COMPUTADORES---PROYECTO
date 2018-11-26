@@ -1,5 +1,5 @@
 
-#Lista de catogoría de productos
+"""Lista de catogoría de productos"""
 
 productos = []
 productos.append((1," Wraps                        "))
@@ -11,7 +11,14 @@ productos.append((6," Gaseosas y jugos embotellados"))
 productos.append((7," Especiales                   " ))
 productos.append((8," Finalizar orden              "))
 
-#Lista de productos de cada categoría
+"""Lista de productos de cada categoría
+   Wraps : Lista de wraps
+   Sandwich : Lista de sandwiches
+   Huev : Lista de huevos
+   Bebi_cal : Lista de bebidas calientes
+   frutas : Lista de frutas
+   Gase jug : Lista de jugos y gaseosas
+   Espe : Lista de platillos especiales """
 
 Wraps = []
 Wraps.append ((1, "Wrap doble queso pina albaca",8500))
@@ -61,3 +68,4 @@ Espe.append((1, "Caldo de costilla           ",3500))
 Espe.append((2, "Caldo de pajarilla          ",3500))
 Espe.append((3, "Tamal                       ",3000))
 Espe.append((4, "Lechona                     ",4500))
+
