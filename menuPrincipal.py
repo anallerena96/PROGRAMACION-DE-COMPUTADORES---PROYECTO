@@ -5,10 +5,8 @@ from listasProductos import *
 
 #class Inicio: Es la clase principal del programa.
 
-
 class Inicio:
    
-
     def __init__(self):
 
         #self.prod: Este atributo incluye la lista de categoría de productos que se comercializan en la tienda.
