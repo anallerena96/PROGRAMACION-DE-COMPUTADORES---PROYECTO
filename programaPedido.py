@@ -2,8 +2,6 @@ import menuPrincipal
 from menuPrincipal import *
 """Aquí se importa el menú principal que contiene los productos"""
 
-
-
 class elegir(Inicio):  
     """class elegir: Sub clase de "Inicio" que se basa en las categorías, el producto y las cantdades que el usuario desea adquirir."""
     
@@ -59,10 +57,7 @@ class elegir(Inicio):
             print("     _____________________________________________________")
             print("                       ELIZANA DESAYUNOS                  ")
             print("     _____________________________________________________")
-            
-            
             self.e=print("          Cantidad     "+"     Producto     "+"      Precio     ")
-            
             
             for (x,y,z) in self.factura:
                  print("          "+str(x)+"        "+str(y)+"$ "+str(z))
@@ -80,7 +75,6 @@ class elegir(Inicio):
                 Ventas.write("  00"+str(self.k) + "                 " + str(x) + "            " + str(y) + "$ " + str(z)+"\n")
 
             Ventas.close()
-
 
             self.factura=[]
             self.total=0
@@ -130,7 +124,7 @@ class elegir(Inicio):
 
     def cantidad(self):
         """Muestra la cantidad de productos que el usuario desea adquirir."""
-    
+        
         while True:
 
             try:
