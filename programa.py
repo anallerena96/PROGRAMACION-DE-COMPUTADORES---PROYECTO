@@ -3,6 +3,7 @@
 import programaPedido
 from programaPedido import *
 
+
 #Abre el archivo ventas.txt y agrega el siguiente encabezado
 Ventas=open("ventas.txt", "w")
 Ventas.write("  ···HISTORIAL DE VENTAS ELIZANA DESAYUNOS···\n")
