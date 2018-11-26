@@ -11,7 +11,7 @@ productos.append((6," Gaseosas y jugos embotellados"))
 productos.append((7," Especiales                   " ))
 productos.append((8," Finalizar orden              "))
 
-#Lita de productos de cada categoría
+#Lista de productos de cada categoría
 
 Wraps = []
 Wraps.append ((1, "Wrap doble queso pina albaca",8500))
